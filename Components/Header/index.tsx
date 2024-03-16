@@ -10,7 +10,7 @@ const Header = () => {
                 width={150}
                 height={150}
                 alt="rinnegan" />
-            <p>Assista seus animes favoritos aqui!</p>
+            <p>ANIME SPACE</p>
         </header>
         </>
     );

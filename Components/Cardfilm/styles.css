@@ -1,3 +1,34 @@
+.Cardanime {
+    padding-left: 2em;
+}
+
 .Cardanime img {
     height: 15em;
+    
 }
+.Cardanime p {
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    background-color: black;
+    color: #d6d6d6;
+}
+
+.Cardanime button {
+    padding: 10px 36px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: #d6d6d6;
+}
+
+.Cardanime button:hover {
+    background-color: rgb(67, 29, 96);
+    color: black;
+  }

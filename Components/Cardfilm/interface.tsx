@@ -4,4 +4,4 @@ interface Props {
     link: string
 }
 
-export default Props;
+export {type Props};

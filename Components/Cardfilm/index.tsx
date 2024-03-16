@@ -1,5 +1,5 @@
 import "./styles.css"
-import Props from "./interface";
+import {Props} from "./interface";
 
 const Cardfilm = (props: Props) => {
     return (
@@ -7,7 +7,7 @@ const Cardfilm = (props: Props) => {
         <div className="Cardanime">
         <p>{props.title}</p>
             <img src={props.Image}/>
-            <button><a href={props.link}>Assistir</a></button>
+            <button><a href={props.link}><b>Watch Here</b></a></button>
         </div>
         </>
     );

@@ -19,6 +19,17 @@
 body {
 }
 
+
+.line1 {
+  display: flex;
+  justify-content: center;
+}
+
+.line2 {
+  display: flex;
+  justify-content: center;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

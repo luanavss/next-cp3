@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
+.nova-flat-regular {
+    font-family: "Nova Flat", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 header {
     background-color: black;
     height: 12em;
+    font-family: "Nova Flat";
     color: white;
     display: flex;
     text-align: center;
     justify-content: space-between;
     padding: 30px;
-    padding-left: 50px;
+    padding-left: 80px;
+    margin-bottom: 10px;
 }
 
 header p {
     font-size: 3em;
     padding-top: 30px;
-    padding-right: 170px;
+    padding-right: 400px;
 }
